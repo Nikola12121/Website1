@@ -37,7 +37,7 @@
     
             <div id="s1">
     
-                <img src="https://natel.rs/wp-content/uploads/2022/09/poco_x3_pro.png" class="p3" alt="" srcset="">
+                <img src="https://natel.rs/wp-content/uploads/2022/09/poco_x3_pro.png" class="p3">
     
     
             </div>
@@ -209,12 +209,19 @@
         <h1 id="q">If you have any questions, you can fill in the following fields:</h1>
 
         <form action="https://formsubmit.co/nidzagtc@gmail.com" method="POST" id="f">
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none;">
+          
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false">
+
+          
             <div>
-                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
             </div>
             
             <div>
-                <textarea name="Q" id="Q" placeholder="Comment..." required></textarea>
+                <textarea name="Comment" id="Q" placeholder="Comment..." required></textarea>
             </div>
             
             <div>
