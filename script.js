@@ -154,7 +154,7 @@ let config = {
 
 
 let config2 = {
-    'Q': {
+    'Message': {
         required: true,
     }
 }

@@ -19,6 +19,9 @@ class Validator2{
     inputtListener() {
         let inputSelector = this.elementsconfig2
 
+        
+        
+
         for(let field in inputSelector) {
             let selector = `textarea[name="${field}"]`
             let el = document.querySelector(selector)
