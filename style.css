@@ -1119,7 +1119,8 @@ The price of the Xiaomi Poco X3 Pro smartphone varies depending on the region an
 
 
 #section6{
-    height: 100vh;
+    height: 150vh;
+    
     
 }
 
@@ -1432,17 +1433,18 @@ The price of the Xiaomi Poco X3 Pro smartphone varies depending on the region an
 #Message{
     width: 500px;
     height: 200px;
-    text-align: left;
-    justify-content: left;
+    
     font-size: 30px;
     
     border: none;
     background-color: #ffffff;
     resize: none;
+    position: relative;
 }
 
 #email{
     width: 500px;
+    height: auto;
     font-size: 30px;
     bottom: 20px;
     position: relative;
@@ -1480,23 +1482,49 @@ The price of the Xiaomi Poco X3 Pro smartphone varies depending on the region an
                 0 0 5px 5px rgb(3, 255, 137);
 }
 
-
+.kratos{
+    margin-left: 20px !important;
+}
 .atrur{
     color: red;
-    margin-left: 25px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.atrurr{
-    color: red;
-    margin-left: 25px;
+   
+  
+    
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: 20px; 
 }
 
+
+
+.atrurr{
+    color: red;
+    
+  margin-left: 20px;
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px; 
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 415px) {
+    #l{
+        display: grid;
+        place-items: center;
+        width: 300px;
+    }
+}
+
+
+/*SUCCESS --------------------------------------------------------------------------------------------------------------------------------------------*/
 #SCSH1{
     font-size: 50px;
     color: #ffffff;
